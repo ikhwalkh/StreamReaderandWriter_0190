@@ -27,3 +27,6 @@ int main()
 
         //kondisi false jika baris hanya berisi karakter q
         if (baris == "q") break;
+
+        //menulis dan memasukkan nilai dari variabel baris ke dalam file
+        outfile << baris << endl;
